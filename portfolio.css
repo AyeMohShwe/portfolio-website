@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #fef6f9, #e1eaff);
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff6b81;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  margin: 1.5rem auto;
+  display: block;
+}
+
+section {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+section h3 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+section p {
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #666;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.skills i {
+  font-size: 2rem;
+  color: #ff6b81;
+}
+
+section h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px; /* spacing between paragraphs */
+  color: #444;
+}
+
+.skills {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.education-list {
+  list-style-type: disc;
+  padding-left: 30px; /* move list more to the right */
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.education-list li {
+  margin-bottom: 10px;
+  font-size: 15.5px;
+  color: #555;
+}
+
+.project {
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.project-card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.icons {
+  margin-top: 1rem;
+}
+
+.icons a {
+  color: #888;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
